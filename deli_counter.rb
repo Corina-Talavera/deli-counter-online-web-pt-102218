@@ -14,6 +14,7 @@ take_a_number(katz_deli, "Grace") #=> "2"
 take_a_number(katz_deli, "Kent") #=> "3"
 
 line(katz_deli) #=> "The line is currently: 1. Ada 2. Grace 3. Kent"
+puts line(katz_deli)= ["Ada","Grace","Kent"]
 
 now_serving(katz_deli) #=> "Currently serving Ada"
 
