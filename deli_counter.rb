@@ -4,7 +4,7 @@ end
 
 def now_serving(katz_deli)
   puts "Currently serving #{katz_deli.first}"
-  current_line.shift
+  line(katz_deli).shift
 end
 
 katz_deli = []
